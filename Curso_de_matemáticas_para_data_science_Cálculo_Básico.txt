@@ -1,0 +1,151 @@
+Cálculo
+Realizar operaciones de una manera dada para llegar a un resultado.
+
+Cálculo infinitesimal
+Cantidades muy pequeñas
+
+Cálculo diferencial
+Estudia la tasa de cambio de funciones cuando esos cambios son muy pequeños (se aproximan a 0). Su principal herramienta es la derivada.
+
+Cálculo integral
+Estudia el proceso de integración o de antiderivación.
+
+¿Qué es una función?
+Una función es una relación, ya que a cada elemento de un conjunto A se le asigna un elemento de un conjunto B. Son valores exclusivos.
+y = f(x)
+y : variable dependiente
+x : variable independiente
+
+¿Cómo representar una función?
+Verbalmente: a cada letra del abecedario se le asigna un número entero diferente
+Numéricamente: por medio de una tabla
+Visualmente: graficas
+Algebraicamente: y = f(x) = x^2
+
+Dominio: los valores que toma x y están definidos en la función f(x)
+Rango: todos los valores que nos puede dar una función.
+
+y=f(x)+c se desplaza c unidades hacia arriba.
+y=f(x)−c se desplaza c unidades hacia abajo.
+y=f(x−c) se desplaza c unidades hacia la derecha.
+y=f(x+c) se desplaza c unidades hacia la izquierda.
+y=c⋅f(x) alarga la gráfica verticalmente en un factor de c .
+y=1/c⋅f(x) comprime la gráfica verticalmente en un factor de c .
+y=f(c⋅x) comprime la gráfica horizontelmente en un factor de c .
+y=f(1/c⋅x) alarga la gráfica horizontelmente en un factor de c .
+y=−f(x) refleja la gráfica respecto al eje x.
+y=f(−x) refleja la gráfica respecto al eje y.
+
+Función par
+Una función es par si cumple la siguiente relación a lo largo de su dominio: 
+f(-x) = f(x) Simétrica respecto al eje vertical (eje Y)
+
+Función impar
+Una función es impar si cumple la siguiente relación a lo largo de su dominio: 
+f(-x) = -f(x) Simétrica respecto al eje horizontal (eje X)
+
+Función acotada
+Una función es acotada si su codominio (también conocido como rango o imagen) se encuentra entre 
+dos valores, es decir, está acotado. Esta definición se define como que hay un número m que 
+para todo valor del dominio de la función se cumple que: -m <= f(x) <= m
+
+Funciones monótonas
+Estas funciones son útiles de reconocer o analizar debido a que nos permiten saber si una 
+función crece o decrece en alguno de sus intervalos. Que algo sea monótono significa que no tiene
+variaciones. Entonces las funciones monótonas son aquellas que dentro de un intervalo I, 
+perteneciente a los números reales, cumple alguna de estas propiedades:
+1. La función es monótona y estrictamente creciente: si para todo x1, x2 E I: x1 < x2 <=> f(x1) < f(x2)
+2. La función es monótona y estrictamente decreciente: si para todo x1, x2 E I: x1 < x2 <=> f(x1) > f(x2)
+3. La función es monótona y creciente: si para todo x1, x2 E I: x1 < x2 <=> f(x1) <= f(x2)
+4. La función es monótona y decreciente: si para todo x1, x2 E I: x1 < x2 <=> f(x1) >= f(x2)
+
+Funciones periódicas
+Las funciones periódicas son aquellas que se repiten cada cierto periodo, este periodo se denomina
+con la letra T. La relación que debe cumplir la función para ser periódica es la siguiente. 
+f(x) = f(x + T), T != 0
+Por ejemplo, la función seno y coseno son funciones periódicas con un periodo T = 2π. Es decir 
+que si nosotros calculamos f(x) y calculamos f(x + 2π) en la función seno el valor que nos 
+den ambas expresiones es el mismo.
+
+Funciones cóncavas y convexas
+Se dice que una función dentro de un intervalo es cóncava si la función “abre hacia arriba”.
+Se dice que una función dentro de un intervalo es convexa si la función “abre hacia abajo”.
+
+Neurona
+Una neurona es una parte fundamental de una red neuronal. Básicamente es una forma fancy de referirse a una función.
+Estas necesitan recibir estímulos al igual que ocurre con las neuronas biológicas. 
+Dichos “estímulos” se usan para hacer una suma ponderada dentro de la función.
+Combinación lineal y = sumatoria(wixi) + b
+
+
+Red neuronal
+Composición de funciones. Conjunto de neuronas o nodos interconectados entre sí.
+Cada neurona regresa una función lineal, pero necesita de una función de activación para que no se comporte linealmente.
+
+Funciones de activación en redes neuronales
+*Función Heaviside (a tramos): H(x) = 0 para x < 0 y 1 para x >= 0
+*Función Sigmoide o logística: sigma(x) = 1/(1 + e^-x) Util para probabilidades
+*Función Tangente Hiperbólica: tanh(x) = senh(x) / tanh(x) = (e^x - e^-x) / (e^x + e^-x)
+*Función ReLU: f(x) = max(0, x) = 0 para x <= 0 y x para x > 0
+
+Función de coste
+Calcula qué tan erradas son tus predicciones
+ECM (error cuadrático medio) = 1/n * (sumatoria((yaprox - y)^2))
+
+Notación de límite
+EL límite de f(x) cuando x tiende a a es L.
+Nos dice cuándo el valor de L cuando nos acercamos a a.
+Para calcular un límite se puede hacer factorizando.
+
+Límites laterales
+Límite lateral izquierdo
+Límite lateral derecho
+
+Utilidad de los límites laterales
+Si el límite por derecha y por izquierda son iguales cuando tienden a a, entonces el límite L existe.
+
+Derivada
+Pendiente de la recta tangente a una curva. Razón de cambio.
+
+Notación de la derivada
+Notación de Leibniz (dy/dx): La notación de Leibniz surge del símbolo dy/dx que representa un operador de diferenciación y no debemos confundirlo como una división.
+Notación de Lagrange (f'(x)): La notación más sencilla de todas es la de Lagrange. Esta notación expresa que la función es una derivada usando una comilla simple antes del argumento, llamada prima.
+Notación de Newton (ẋ):  Esta notación es muy usada en campos como la física y la ingeniería debido a su simplicidad para expresar la primera y segunda derivada. Se usa sobre todo en funciones relacionadas al tiempo en campos como la mecánica. Por ejemplo, como una función que representa el movimiento de una partícula.
+Notación de Euler (Df(x)): Utiliza el operador de diferenciación D.
+
+Importancia de la derivada
+La derivada es importante para hallar la velocidad, la tangente de una curva, la razón de cambio y también es útil para hallar los puntos críticos de la función (máximos y mínimos).
+
+Máximos y mínimos en una función
+Valores más altos y más bajos de una función
+
+Teorema de la Primera Derivada
+Si f’(x)>0 hacia la izquierda de un punto a y si f’(x)<0 hacia la derecha del punto a, entonces f tiene un máximo relativo en (a, f(a))
+Si f’(x)<0 hacia la izquierda de un punto a y si f’(x)>0 hacia la derecha del punto a, entonces f tiene un mínino relativo en (a, f(a))
+Si f’(x) es menor o mayor a 0 de ambos lados, no es ni un máximo ni un mínimo, es un punto de inflexión.
+
+Teorema de la Segunda Derivada
+Si f’’(x)<0 entonces f tiene un máximo relativo en (x, f(x))
+Si f’’(x)>0 entonces f tiene un mínimo relativo en (x, f(x))
+Si f’’(x)=0 no se puede determinar si es un máximo o un mínimo o ninguno de los dos. Es un punto de inflexión.
+Si f’’(x) no existe no es aplicable el criterio de la segunda derivada. Se debe utilizar el teorema de la primera derivada para poder determinar si es máximo, mínimo o ninguno de los dos.
+
+¿Cómo optimizar una función?
+Analizar el problema
+Plantear las funciones y simplificarlas
+Derivar la función
+Utilizar el criterios de la primera y segunda derivada para hallar el máximo o mínimo según lo requiera el ejercicio.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

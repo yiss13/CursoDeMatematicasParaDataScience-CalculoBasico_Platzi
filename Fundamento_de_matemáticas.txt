@@ -1,0 +1,30 @@
+¿Qué es la aritmética?
+Es una rama de las matemáticas que estudia los números y las operaciones que se pueden realizar con ellos. Dentro de las operaciones que podemos realizar con los números encontramos cuatro operaciones básicas:
+Suma: representada por el signo + esta operación se encarga de adicionar datos entre sí.
+Resta: representada por el signo - esta operación se encarga de substraer un número de otro. Esta operación es la operación inversa de la suma.
+Multiplicación: representada por los signos x, * y .. Esta operación se puede ver como una suma repetida.
+División: representada por los signos /, - y ÷. Esta operación consiste en formar grupos de elementos.
+
+En la multiplicación teníamos un numero que se sumaba el numero de veces que indica el operando. Mientras que en la potenciación tenemos un numero que va a ser multiplicado la cantidad de veces que indique su exponente.
+Podemos encontrar varias propiedades en las potencias, por ejemplo:
+En la multiplicación de dos potencias con misma base los exponentes se suman.
+En la división de dos potencias con misma base los exponentes se restan.
+Una potencia elevada a la cero da uno.
+Una potencia cuya base es cero siempre va a dar cero, no importa el exponente.
+
+La operación inversa de la potenciación es la radicación, lo que va a hacer esta operación es buscar el número raíz o base que se debe multiplicar la cantidad de veces que indique el índice para obtener el radicando.
+Si estamos buscando la raíz de una multiplicación podemos separar los términos en varias operaciones raíz y multiplicarlas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
