@@ -152,7 +152,15 @@ derivada total <- (dw/dt) = (dw/dx * dx/dt + dw/dy * dy/dt) -> derivadas parcial
 
 Gradiente
 Indica hacia donde crece más rápido la función
-nablaF = (df/dx)i + (df/dy)j
+nablaf = (df/dx)i + (df/dy)j
+
+Descenso del gradiente
+Método iterativo para optimizar la función de coste
+w: w - alphanablaf
+alpha -> learning rate
+
+https://matplotlib.org/stable/tutorials/colors/colormaps.html
+
 
 
 
