@@ -136,7 +136,23 @@ Plantear las funciones y simplificarlas
 Derivar la función
 Utilizar el criterios de la primera y segunda derivada para hallar el máximo o mínimo según lo requiera el ejercicio.
 
+Funciones de varias variables
+w = f(x1, x2, ..., xn)
+Cada variable representa una característica
 
+Curvas de nivel
+Proyección en 2D de una figura 3D, donde cada línea cumple con las mismas condiciones, por ejemplo la misma altitud.
+
+Derivadas parciales
+En una función con varias variables, la derivada parcial es la derivada que se hace respecto a una sola variable manteniendo las otras como constantes.
+En una función de dos variables la intersección de las dos rectas de la derivadas forma un plano tangente a la superficie.
+
+Regla de la cadena en cálculo de varias variables
+derivada total <- (dw/dt) = (dw/dx * dx/dt + dw/dy * dy/dt) -> derivadas parciales
+
+Gradiente
+Indica hacia donde crece más rápido la función
+nablaF = (df/dx)i + (df/dy)j
 
 
 
